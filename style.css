@@ -1,4 +1,4 @@
-#span1 {
+.span1 {
     display: block;
     color: #ffad5a;
 }
@@ -39,7 +39,7 @@ h1 {
 .button {
     background-image: linear-gradient(#ff5959, #f74444);
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 12px 40px;
     border-radius: 5px;
     font-weight: 700;
     color: white;
@@ -54,6 +54,10 @@ h1 {
 
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .fast-div {
     align-items: center;
     margin-top: 20px;
@@ -64,6 +68,63 @@ h1 {
     padding-left: 5%;
 
 
+}
+
+.section-two {
+    padding-left: 5%;
+    width: 50%;
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: left;
+    background-attachment: initial;
+    padding-left: 25px;
+    margin-left: 80px;
+}
+
+
+
+
+.section-two img {
+    width: 90%;
+    max-width: 60%;
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.images {
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+
+
+.angry-birds {
+    position: absolute;
+    right: 150px;
+    width: 40%;
+    padding-top: 120px;
+    padding-left: 0px;
+
+
+}
+
+.angry-cow {
+    position: absolute;
+    left: 150px;
+    width: 40%;
+    padding-top: 140px;
+    padding-right: 0px;
+}
+
+.title2 {
+    font-size: 26px;
 }
 
 .half-width img {
